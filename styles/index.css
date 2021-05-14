@@ -1,0 +1,122 @@
+:root{
+    --color-header-bg: #161b22;
+    --color-app-bg: #0d1117;
+    --color-text: #f0f6fc;
+    --color-button-bg: #21262d;
+    --color-button-border: #30363d;
+    --color-button-text: #c9d1d9;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: repeat(3);
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+h1, p{
+    margin: 0px;
+}
+
+/* ----------------------------------- Header ----------------------------------- */
+
+.container-header{
+    background-color: var(--color-header-bg);
+    color: var(--color-text);
+    height: 100px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+.container-header-logo{
+    float: left;
+}
+
+#logo{
+    width: 80px;
+    margin: 10px;
+}
+
+.container-header-navbar{
+    float: right;
+    font-size: 1.2rem;
+    line-height: 100px;
+}
+
+.container-header-navbar-item{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* ----------------------------------- App ----------------------------------- */
+
+.container-app{
+    background-color: var(--color-app-bg);
+    color: var(--color-text);
+    width: 100%;
+}
+
+.container-app-message{
+    padding: 0px 20px;
+}
+
+#principal-message{
+    text-align: center;
+}
+
+#container-app-competitions-tittle{
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.container-app-competitions-1{
+    padding: 10px 20px;
+    margin: 10px 0px;
+    line-height: 25px;
+}
+
+.container-app-competitions-2{
+    padding: 10px 20px;
+    margin: 10px 0px;
+}
+
+.Boton{
+    background-color: var(--color-button-bg);
+    border: 1px solid var(--color-button-border);
+    color: var(--color-button-text);
+    padding: 2px 5px;
+    border-radius: 10px;
+}
+
+.container-app-donate{
+    padding: 20px;
+    text-align: center;
+}
+
+/* ----------------------------------- Footer ----------------------------------- */
+
+.container-footer{
+    background-color: var(--color-header-bg);
+    color: var(--color-text);
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 1.1rem;
+}
+
+.container-footer-contact{
+    line-height: 30px;
+    padding: 10px 20px;
+}
+
+.container-footer-copy{
+    padding: 0px 20px;
+    line-height: 110px;
+}
