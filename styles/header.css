@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#container img{
+    position: absolute;
+    top:0;
+    bottom:0;
+    margin: auto;
+}
+
+.header-logo{
+    width: 150px;
+}
+
+.header{
+    margin: auto;
+    position: sticky;
+    top: 0;
+    display: inline-flex;
+    align-items: center;
+    line-height: 100px;
+    height: 100px;
+}
