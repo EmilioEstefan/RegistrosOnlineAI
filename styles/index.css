@@ -9,6 +9,8 @@ body{
     grid-template-rows: repeat(2);
 }
 
+
+
 .app{
     width: 100%;
 }
@@ -24,6 +26,8 @@ body{
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
     padding: 20px;
     position: relative;
+    margin-bottom: 50px;
+    background-color: white;
 }
 
 .app-form-label, .app-form-input{
